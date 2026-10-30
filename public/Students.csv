@@ -1,0 +1,101 @@
+Student ID,Name,Goal,CGPA,Subjects cleared,Weak subjects,Workload preference,Number of electives of each type required
+STU101,Rahul Sharma,AI Engineer,8.2,"Python, Mathematics, Statistics, Data Structures",Electronics,Moderate,2 Professional + 1 Open
+STU102,Priya Patel,AI Engineer,7.4,"Data Structures, Operating Systems, Computer Networks",Mathematics,Low,2 Professional + 1 Open
+STU103,Aarav Verma (Edge Case - Blocked),AI Engineer,5.6,,"Mathematics, Python",Low,2 Professional + 1 Open
+STU104,Ananya Iyer,Cloud Architect,9.3,"Operating Systems, Computer Networks, Data Structures, Python, Database Systems",,High,2 Professional + 1 Open
+STU105,Rohan Gupta,Product Manager,8,"Python, Data Structures, Database Systems",Theory of Computation,Moderate,1 Professional + 2 Open
+STU106,Sneha Reddy,Cybersecurity Analyst,8.6,"Computer Networks, Operating Systems, Mathematics, Data Structures",,Moderate,2 Professional + 1 Open
+STU107,Manish Verma,Cloud Architect,8.8,"Theory of Computation, Cryptography, Statistics, Computer Networks, Machine Learning, Python, Data Structures",Electronics,Moderate,2 Professional + 1 Open
+STU108,Nandini Deshmukh,Data Scientist,6.2,"Machine Learning, Python, Data Structures, Database Systems, Electronics, Mathematics",Mathematics,Moderate,2 Professional + 1 Open
+STU109,Vikram Reddy,AI Engineer,7.9,"Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography",,High,2 Professional + 1 Open
+STU110,Meera Menon,Systems / Embedded Engineer,9.6,"Cryptography, Statistics, Computer Networks, Machine Learning",,Low,2 Professional + 1 Open
+STU111,Harsh Singh,Product Manager,7,"Python, Data Structures, Database Systems",,Moderate,2 Professional + 1 Open
+STU112,Bhavna Bhat,Cybersecurity Analyst,8.7,"Mathematics, Operating Systems",Mathematics,High,3 Professional
+STU113,Rohan Chopra,Full Stack Developer,6.1,"Statistics, Computer Networks, Machine Learning, Python, Data Structures, Database Systems, Electronics",,Moderate,2 Professional + 1 Open
+STU114,Divya Kapoor,Cloud Architect,7.8,"Data Structures, Database Systems, Electronics, Mathematics, Operating Systems, Theory of Computation",Electronics,Moderate,2 Professional + 1 Open
+STU115,Varun Bose,Data Scientist,9.5,"Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks",,Low,1 Professional + 2 Open
+STU116,Swati Patel,AI Engineer,6.9,"Computer Networks, Machine Learning, Python, Data Structures",Mathematics,Moderate,2 Professional + 1 Open
+STU117,Aarav Kulkarni,Systems / Embedded Engineer,8.6,"Database Systems, Electronics, Mathematics",,Moderate,2 Professional + 1 Open
+STU118,Ishita Iyer,Product Manager,6,"Theory of Computation, Cryptography",,High,2 Professional + 1 Open
+STU119,Nikhil Joshi,Cybersecurity Analyst,7.7,"Machine Learning, Python, Data Structures, Database Systems, Electronics, Mathematics, Operating Systems",,Moderate,2 Professional + 1 Open
+STU120,Neha Gupta,Full Stack Developer,9.4,"Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography, Statistics",Mathematics,Low,2 Professional + 1 Open
+STU121,Rahul Rao,Cloud Architect,6.8,"Cryptography, Statistics, Computer Networks, Machine Learning, Python",Electronics,High,2 Professional + 1 Open
+STU122,Pooja Nair,Data Scientist,8.5,"Python, Data Structures, Database Systems, Electronics",,Moderate,2 Professional + 1 Open
+STU123,Karan Agarwal,AI Engineer,5.9,"Mathematics, Operating Systems, Theory of Computation",,Moderate,2 Professional + 1 Open
+STU124,Shreya Mehta,Systems / Embedded Engineer,7.6,"Statistics, Computer Networks",Mathematics,High,3 Professional
+STU125,Deepak Sharma,Product Manager,9.3,"Data Structures, Database Systems, Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography",,Low,2 Professional + 1 Open
+STU126,Sneha Das,Cybersecurity Analyst,6.7,"Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks, Machine Learning",,Moderate,2 Professional + 1 Open
+STU127,Siddharth Verma,Full Stack Developer,8.4,"Computer Networks, Machine Learning, Python, Data Structures, Database Systems",,High,2 Professional + 1 Open
+STU128,Kavya Deshmukh,Cloud Architect,5.8,"Database Systems, Electronics, Mathematics, Operating Systems","Mathematics, Electronics",Moderate,2 Professional + 1 Open
+STU129,Akash Reddy,Data Scientist,7.5,"Theory of Computation, Cryptography, Statistics",,Moderate,2 Professional + 1 Open
+STU130,Ananya Menon,AI Engineer,9.2,"Machine Learning, Python",,Low,1 Professional + 2 Open
+STU131,Arjun Singh,Systems / Embedded Engineer,6.6,"Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks",,Moderate,2 Professional + 1 Open
+STU132,Tanvi Bhat,Product Manager,8.3,"Cryptography, Statistics, Computer Networks, Machine Learning, Python, Data Structures",Mathematics,Moderate,2 Professional + 1 Open
+STU133,Gaurav Chopra,Cybersecurity Analyst,5.7,"Python, Data Structures, Database Systems, Electronics, Mathematics",,High,2 Professional + 1 Open
+STU134,Priya Kapoor,Full Stack Developer,7.4,"Mathematics, Operating Systems, Theory of Computation, Cryptography",,Moderate,2 Professional + 1 Open
+STU135,Aditya Bose,Cloud Architect,9.1,"Statistics, Computer Networks, Machine Learning",Electronics,Low,2 Professional + 1 Open
+STU136,Riya Patel,Data Scientist,6.5,"Data Structures, Database Systems",Mathematics,High,3 Professional
+STU137,Manish Kulkarni,AI Engineer,8.2,"Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks, Machine Learning, Python",,Moderate,2 Professional + 1 Open
+STU138,Nandini Iyer,Systems / Embedded Engineer,5.6,"Computer Networks, Machine Learning, Python, Data Structures, Database Systems, Electronics",,Moderate,2 Professional + 1 Open
+STU139,Vikram Joshi,Product Manager,7.3,"Database Systems, Electronics, Mathematics, Operating Systems, Theory of Computation",,High,2 Professional + 1 Open
+STU140,Meera Gupta,Cybersecurity Analyst,9,"Theory of Computation, Cryptography, Statistics, Computer Networks",Mathematics,Low,2 Professional + 1 Open
+STU141,Harsh Rao,Full Stack Developer,6.4,"Machine Learning, Python, Data Structures",,Moderate,2 Professional + 1 Open
+STU142,Bhavna Nair (Prereq Bottleneck),AI Engineer,6.2,,Mathematics,Low,2 Professional + 1 Open
+STU143,Rohan Agarwal,Data Scientist,5.5,"Cryptography, Statistics, Computer Networks, Machine Learning, Python, Data Structures, Database Systems",,Moderate,2 Professional + 1 Open
+STU144,Divya Mehta,AI Engineer,7.2,"Python, Data Structures, Database Systems, Electronics, Mathematics, Operating Systems",Mathematics,Moderate,2 Professional + 1 Open
+STU145,Varun Sharma,Systems / Embedded Engineer,8.9,"Mathematics, Operating Systems, Theory of Computation, Cryptography, Statistics",,Low,1 Professional + 2 Open
+STU146,Swati Das,Product Manager,6.3,"Statistics, Computer Networks, Machine Learning, Python",,Moderate,2 Professional + 1 Open
+STU147,Aarav Verma,Cybersecurity Analyst,8,"Data Structures, Database Systems, Electronics",,Moderate,2 Professional + 1 Open
+STU148,Ishita Deshmukh,Full Stack Developer,9.7,"Operating Systems, Theory of Computation",Mathematics,High,3 Professional
+STU149,Nikhil Reddy,Cloud Architect,7.1,"Computer Networks, Machine Learning, Python, Data Structures, Database Systems, Electronics, Mathematics",Electronics,Moderate,2 Professional + 1 Open
+STU150,Neha Menon,Data Scientist,8.8,"Database Systems, Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography",,Low,2 Professional + 1 Open
+STU151,Rahul Singh,AI Engineer,6.2,"Theory of Computation, Cryptography, Statistics, Computer Networks, Machine Learning",,High,2 Professional + 1 Open
+STU152,Pooja Bhat,Systems / Embedded Engineer,7.9,"Machine Learning, Python, Data Structures, Database Systems",Mathematics,Moderate,2 Professional + 1 Open
+STU153,Karan Chopra,Product Manager,9.6,"Electronics, Mathematics, Operating Systems",,Moderate,2 Professional + 1 Open
+STU154,Shreya Kapoor,Cybersecurity Analyst,7,"Cryptography, Statistics",,High,2 Professional + 1 Open
+STU155,Deepak Bose,Full Stack Developer,8.7,"Python, Data Structures, Database Systems, Electronics, Mathematics, Operating Systems, Theory of Computation",,Low,2 Professional + 1 Open
+STU156,Sneha Patel,Cloud Architect,6.1,"Mathematics, Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks","Mathematics, Electronics",Moderate,2 Professional + 1 Open
+STU157,Siddharth Kulkarni,Data Scientist,7.8,"Statistics, Computer Networks, Machine Learning, Python, Data Structures",,High,2 Professional + 1 Open
+STU158,Kavya Iyer,AI Engineer,9.5,"Data Structures, Database Systems, Electronics, Mathematics",,Moderate,2 Professional + 1 Open
+STU159,Akash Joshi,Systems / Embedded Engineer,6.9,"Operating Systems, Theory of Computation, Cryptography",,Moderate,2 Professional + 1 Open
+STU160,Ananya Gupta,Product Manager,8.6,"Computer Networks, Machine Learning",Mathematics,Low,3 Professional
+STU161,Arjun Rao,Cybersecurity Analyst,6,"Database Systems, Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography, Statistics",,Moderate,2 Professional + 1 Open
+STU162,Tanvi Nair,Full Stack Developer,7.7,"Theory of Computation, Cryptography, Statistics, Computer Networks, Machine Learning, Python",,Moderate,2 Professional + 1 Open
+STU163,Gaurav Agarwal,Cloud Architect,9.4,"Machine Learning, Python, Data Structures, Database Systems, Electronics",Electronics,High,2 Professional + 1 Open
+STU164,Priya Mehta,Data Scientist,6.8,"Electronics, Mathematics, Operating Systems, Theory of Computation",Mathematics,Moderate,2 Professional + 1 Open
+STU165,Aditya Sharma,AI Engineer,8.5,"Cryptography, Statistics, Computer Networks",,Low,2 Professional + 1 Open
+STU166,Riya Das,Systems / Embedded Engineer,5.9,"Python, Data Structures",,High,2 Professional + 1 Open
+STU167,Manish Verma,Product Manager,7.6,"Mathematics, Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks, Machine Learning",,Moderate,2 Professional + 1 Open
+STU168,Nandini Deshmukh,Cybersecurity Analyst,9.3,"Statistics, Computer Networks, Machine Learning, Python, Data Structures, Database Systems",Mathematics,Moderate,2 Professional + 1 Open
+STU169,Vikram Reddy,Full Stack Developer,6.7,"Data Structures, Database Systems, Electronics, Mathematics, Operating Systems",,High,2 Professional + 1 Open
+STU170,Meera Menon,Cloud Architect,8.4,"Operating Systems, Theory of Computation, Cryptography, Statistics",Electronics,Low,2 Professional + 1 Open
+STU171,Harsh Singh,Data Scientist,5.8,"Computer Networks, Machine Learning, Python",,Moderate,2 Professional + 1 Open
+STU172,Bhavna Bhat,AI Engineer,7.5,"Database Systems, Electronics",Mathematics,High,3 Professional
+STU173,Rohan Chopra,Systems / Embedded Engineer,9.2,"Theory of Computation, Cryptography, Statistics, Computer Networks, Machine Learning, Python, Data Structures",,Moderate,2 Professional + 1 Open
+STU174,Divya Kapoor,Product Manager,6.6,"Machine Learning, Python, Data Structures, Database Systems, Electronics, Mathematics",,Moderate,2 Professional + 1 Open
+STU175,Varun Bose,Cybersecurity Analyst,8.3,"Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography",,Low,1 Professional + 2 Open
+STU176,Swati Patel,Full Stack Developer,5.7,"Cryptography, Statistics, Computer Networks, Machine Learning",Mathematics,Moderate,2 Professional + 1 Open
+STU177,Aarav Kulkarni,Cloud Architect,7.4,"Python, Data Structures, Database Systems",Electronics,Moderate,2 Professional + 1 Open
+STU178,Ishita Iyer,Data Scientist,9.1,"Mathematics, Operating Systems",,High,2 Professional + 1 Open
+STU179,Nikhil Joshi,AI Engineer,6.5,"Statistics, Computer Networks, Machine Learning, Python, Data Structures, Database Systems, Electronics",,Moderate,2 Professional + 1 Open
+STU180,Neha Gupta,Systems / Embedded Engineer,8.2,"Data Structures, Database Systems, Electronics, Mathematics, Operating Systems, Theory of Computation",Mathematics,Low,2 Professional + 1 Open
+STU181,Rahul Rao,Product Manager,5.6,"Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks",,High,2 Professional + 1 Open
+STU182,Pooja Nair,Cybersecurity Analyst,7.3,"Computer Networks, Machine Learning, Python, Data Structures",,Moderate,2 Professional + 1 Open
+STU183,Karan Agarwal,Full Stack Developer,9,"Database Systems, Electronics, Mathematics",,Moderate,2 Professional + 1 Open
+STU184,Shreya Mehta,Cloud Architect,6.4,"Theory of Computation, Cryptography","Mathematics, Electronics",High,3 Professional
+STU185,Deepak Sharma,Data Scientist,8.1,"Machine Learning, Python, Data Structures, Database Systems, Electronics, Mathematics, Operating Systems",,Low,2 Professional + 1 Open
+STU186,Sneha Das,AI Engineer,5.5,"Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography, Statistics",,Moderate,2 Professional + 1 Open
+STU187,Siddharth Verma,Systems / Embedded Engineer,7.2,"Cryptography, Statistics, Computer Networks, Machine Learning, Python",,High,2 Professional + 1 Open
+STU188,Kavya Deshmukh,Product Manager,8.9,"Python, Data Structures, Database Systems, Electronics",Mathematics,Moderate,2 Professional + 1 Open
+STU189,Akash Reddy,Cybersecurity Analyst,6.3,"Mathematics, Operating Systems, Theory of Computation",,Moderate,2 Professional + 1 Open
+STU190,Ananya Menon,Full Stack Developer,8,"Statistics, Computer Networks",,Low,1 Professional + 2 Open
+STU191,Arjun Singh,Cloud Architect,9.7,"Data Structures, Database Systems, Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography",Electronics,Moderate,2 Professional + 1 Open
+STU192,Tanvi Bhat,Data Scientist,7.1,"Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks, Machine Learning",Mathematics,Moderate,2 Professional + 1 Open
+STU193,Gaurav Chopra,AI Engineer,8.8,"Computer Networks, Machine Learning, Python, Data Structures, Database Systems",,High,2 Professional + 1 Open
+STU194,Priya Kapoor,Systems / Embedded Engineer,6.2,"Database Systems, Electronics, Mathematics, Operating Systems",,Moderate,2 Professional + 1 Open
+STU195,Aditya Bose,Product Manager,7.9,"Theory of Computation, Cryptography, Statistics",,Low,2 Professional + 1 Open
+STU196,Riya Patel,Cybersecurity Analyst,9.6,"Machine Learning, Python",Mathematics,High,3 Professional
+STU197,Manish Kulkarni,Full Stack Developer,7,"Electronics, Mathematics, Operating Systems, Theory of Computation, Cryptography, Statistics, Computer Networks",,Moderate,2 Professional + 1 Open
+STU198,Nandini Iyer,Cloud Architect,8.7,"Cryptography, Statistics, Computer Networks, Machine Learning, Python, Data Structures",Electronics,Moderate,2 Professional + 1 Open
+STU199,Vikram Joshi,Data Scientist,6.1,"Python, Data Structures, Database Systems, Electronics, Mathematics",,High,2 Professional + 1 Open
+STU200,Meera Gupta,AI Engineer,7.8,"Mathematics, Operating Systems, Theory of Computation, Cryptography",Mathematics,Low,2 Professional + 1 Open
