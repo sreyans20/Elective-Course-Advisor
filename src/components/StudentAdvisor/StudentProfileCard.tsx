@@ -9,10 +9,12 @@ import {
   ChevronRight,
   Edit3,
   Check,
-  Sparkles
+  Sparkles,
+  ShieldAlert
 } from 'lucide-react';
 import { Student, WorkloadPreference } from '../../types';
 import { Badge } from '../Common';
+import { auditUserInput, sanitizeText } from '../../utils/security';
 
 interface StudentProfileCardProps {
   students: Student[];
@@ -34,12 +36,15 @@ export const StudentProfileCard: React.FC<StudentProfileCardProps> = ({
   const [newCleared, setNewCleared] = useState('');
   const [newWeak, setNewWeak] = useState('');
 
+  const [securityNotice, setSecurityNotice] = useState<string | null>(null);
+
   const currentIndex = students.findIndex(s => s.id === selectedStudent.id);
 
   const handlePrev = () => {
     if (currentIndex > 0) {
       onSelectStudent(students[currentIndex - 1]);
       setIsEditing(false);
+      setSecurityNotice(null);
     }
   };
 
@@ -47,14 +52,22 @@ export const StudentProfileCard: React.FC<StudentProfileCardProps> = ({
     if (currentIndex < students.length - 1) {
       onSelectStudent(students[currentIndex + 1]);
       setIsEditing(false);
+      setSecurityNotice(null);
     }
   };
 
   const handleSaveEdit = () => {
+    const audit = auditUserInput(editGoal);
+    if (!audit.isSafe) {
+      setSecurityNotice(`Security Defense: Sanitized input. Detected suspicious pattern: ${audit.threatsDetected[0]}`);
+    } else {
+      setSecurityNotice(null);
+    }
+
     const updated: Student = {
       ...selectedStudent,
-      goal: editGoal.trim() || selectedStudent.goal,
-      cgpa: parseFloat(editCgpa) || selectedStudent.cgpa,
+      goal: audit.sanitized || selectedStudent.goal,
+      cgpa: Math.max(0, Math.min(10, parseFloat(editCgpa) || selectedStudent.cgpa)),
       workloadPreference: editWorkload
     };
     onUpdateStudent(updated);
@@ -62,10 +75,11 @@ export const StudentProfileCard: React.FC<StudentProfileCardProps> = ({
   };
 
   const handleAddCleared = () => {
-    if (newCleared.trim() && !selectedStudent.subjectsCleared.includes(newCleared.trim())) {
+    const sanitized = sanitizeText(newCleared);
+    if (sanitized && !selectedStudent.subjectsCleared.includes(sanitized)) {
       const updated = {
         ...selectedStudent,
-        subjectsCleared: [...selectedStudent.subjectsCleared, newCleared.trim()]
+        subjectsCleared: [...selectedStudent.subjectsCleared, sanitized]
       };
       onUpdateStudent(updated);
       setNewCleared('');
@@ -81,10 +95,11 @@ export const StudentProfileCard: React.FC<StudentProfileCardProps> = ({
   };
 
   const handleAddWeak = () => {
-    if (newWeak.trim() && !selectedStudent.weakSubjects.includes(newWeak.trim())) {
+    const sanitized = sanitizeText(newWeak);
+    if (sanitized && !selectedStudent.weakSubjects.includes(sanitized)) {
       const updated = {
         ...selectedStudent,
-        weakSubjects: [...selectedStudent.weakSubjects, newWeak.trim()]
+        weakSubjects: [...selectedStudent.weakSubjects, sanitized]
       };
       onUpdateStudent(updated);
       setNewWeak('');
@@ -168,6 +183,14 @@ export const StudentProfileCard: React.FC<StudentProfileCardProps> = ({
           </button>
         </div>
       </div>
+
+      {/* Security notice if injection or unsafe text detected */}
+      {securityNotice && (
+        <div className="mt-4 p-3 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs flex items-center gap-2">
+          <ShieldAlert className="w-4 h-4 text-amber-600 shrink-0" />
+          <span>{securityNotice}</span>
+        </div>
+      )}
 
       {/* Editing Mode Form */}
       {isEditing && (

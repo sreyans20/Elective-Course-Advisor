@@ -1,0 +1,17 @@
+# Gitleaks Configuration for Elective Course Advisor
+title = "Elective Course Advisor Secret Scanning & Leak Prevention"
+
+[extend]
+# Use default gitleaks ruleset
+
+[allowlist]
+description = "Global allowlist"
+paths = [
+  '''node_modules''',
+  '''dist''',
+  '''package-lock\.json''',
+  '''\.git'''
+]
+
+[rules]
+# Standard rules are enabled by default
